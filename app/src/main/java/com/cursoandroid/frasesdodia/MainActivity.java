@@ -19,10 +19,10 @@ public class MainActivity extends AppCompatActivity {
     public void gerarNovaFrase(View view) {
 
         String[] frases = {
-                "Frase1",
-                "Frase2",
-                "Frase3",
-                "Frase4"
+                "Comece onde você está, use o que você tem e faça o que você pode.",
+                "Tudo o que um sonho precisa para ser realizado é alguém que acredite que ele possa ser realizado.",
+                "Devíamos ser ensinados a não esperar por inspiração para começar algo. Ação sempre gera inspiração. Inspiração raramente gera ação.",
+                "Não importa que você vá devagar, contanto que você não pare."
         };
 
         int numero = new Random().nextInt(4);
